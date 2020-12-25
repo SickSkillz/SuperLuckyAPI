@@ -4,15 +4,18 @@ plugins {
 }
 
 group = 'org.sickskillz'
-version = '1.0.0'
+version = '1.0.1'
 sourceCompatibility = '1.8'
 
 repositories {
     mavenCentral()
-    mavenLocal()
 
     maven {
         url = uri('https://hub.spigotmc.org/nexus/content/repositories/snapshots/')
+    }
+
+    maven {
+        url = uri('https://oss.sonatype.org/content/repositories/snapshots/')
     }
 }
 
