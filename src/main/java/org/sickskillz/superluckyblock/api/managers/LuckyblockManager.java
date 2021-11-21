@@ -3,6 +3,7 @@ package org.sickskillz.superluckyblock.api.managers;
 import org.sickskillz.superluckyblock.api.luckyblocks.Luckyblock;
 import org.sickskillz.superluckyblock.api.luckyblocks.Surprise;
 
+import java.util.Map;
 import java.util.Set;
 
 public interface LuckyblockManager {
@@ -20,7 +21,7 @@ public interface LuckyblockManager {
      *
      * @return A set with all registered {@link Luckyblock} objects.
      */
-    Set<Luckyblock> getLuckyBlocks();
+    Map<String, Luckyblock> getLuckyBlocks();
 
     /**
      * Adds a {@link Surprise} to the {@link Luckyblock} from the given filename.
