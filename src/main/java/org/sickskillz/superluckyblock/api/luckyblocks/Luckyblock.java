@@ -274,4 +274,10 @@ public interface Luckyblock {
      * @return The permission for this Luckyblock.
      */
     String getPermission();
+
+    double getParticleOffsetX();
+
+    double getParticleOffsetY();
+
+    double getParticleOffsetZ();
 }
