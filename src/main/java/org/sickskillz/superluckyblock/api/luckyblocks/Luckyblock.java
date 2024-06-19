@@ -280,4 +280,10 @@ public interface Luckyblock {
     double getParticleOffsetY();
 
     double getParticleOffsetZ();
+
+    boolean isLuckyActionsPermissionEnabled();
+
+    String getLuckyActionsPermission();
+
+    List<String> getLuckyActionDisabledWorlds();
 }
